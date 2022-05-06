@@ -1,0 +1,39 @@
+.section--dignity {
+    padding-bottom: 0px;
+}
+
+.list-dignity {
+    margin-right: -30px;
+}
+
+.list-dignity>.list-dignity__item {
+    flex-basis: calc(100% / 4 - 24px);
+}
+
+.list-dignity__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.list-dignity__container {
+    margin-bottom: 30px;
+}
+
+.list-dignity__icon {
+    height: 120px;
+    width: 270px;
+}
+
+.list-dignity__title {
+    margin-bottom: 10px;
+
+    color: var(--link-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.list-dignity__paragraph {
+    font-size: 14px;
+    line-height: 1.71;
+}
